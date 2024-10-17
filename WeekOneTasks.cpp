@@ -1,3 +1,4 @@
+//pasted from their own files so variables may be defined several times each
 #include <iostream>
 #include <string>
 using namespace std;
@@ -30,7 +31,7 @@ int main(){
     cout << "Grade: "<<personsGrade<< "\n";
     cout << "\n";
 
-    //task two
+    														//task two
 
    //defining variables
    int firstNum = 0;
@@ -57,7 +58,7 @@ int main(){
    cout << "The first number divided by the second number is " << numberDiv << ".\n";
    cout << "The modulus of the two is " << numberMod << ".\n";   
 
-   //task three
+  														 //task three
    static int staticVariable = 0; // defining static variable
 
 extern int globalVariable; // defining global variable 
@@ -78,7 +79,7 @@ extern int globalVariable; // defining global variable
     cout << localVariable << endl;
 //}
 
-    //task four 
+   														 //task four 
     //defining variables   
     int firstNum = 0; 
     int secondNum = 0;
