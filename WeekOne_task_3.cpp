@@ -4,7 +4,7 @@ using namespace std;
 
 static int staticVariable = 0; // defining static variable
 
-extern int globalVariable = 0; // defining global variable 
+extern int globalVariable; // defining global variable 
 
 int main(){
     int localVariable = 0; // defining local variable 
