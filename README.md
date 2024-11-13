@@ -40,8 +40,36 @@ week 1:
           1.	Write a program that demonstrates the use of local, global, and static variables.
           2.	Create a function that increments a local variable, a static variable, and a global variable.
           3.	Call this function multiple times and observe the behavior of each type of variable.
-
   
+  Task 4 - Type Casting and Conversion
+          
+          Objective: Understand implicit and explicit type casting in arithmetic operations.
+          Instructions:
+          1.	Write a program that accepts two integers and performs the following operations:
+          a.	Implicit type conversion in division.
+          b.	Explicit type conversion (using static_cast) to cast one of the integers to a float before division.
+          2.	Display the results of both operations and explain the difference in your comments.
+          
+          Example Output:
+          Enter the first number: 15
+          Enter the second number: 2
+          •	Result without type casting (integer division): 7
+          •	Result with type casting (float division): 7.5
+
+  Task 5 - Complex Arithmetic Expression and Precedence
+
+          Objective: Practice writing complex arithmetic expressions while understanding precedence and associativity.
+          Instructions:
+          1.	Write a program that calculates the result of a complex arithmetic expression using multiple operators (+, -, *, /, and %).
+          2.	Ensure the expression uses parentheses to change the default precedence order.
+          3.	Display the result of the expression with and without parentheses and explain the difference.
+          Example:
+          -	Without parentheses: 5 + 3 * 2 / 4 - 1
+          -	With parentheses: (5 + 3) * (2 / (4 - 1))
+          Example Output:
+          -	Without parentheses: Result = 5
+          -	With parentheses: Result = 5.33
+
 week 2:
   task 1 -
   task 2 - 
